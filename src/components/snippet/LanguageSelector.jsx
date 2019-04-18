@@ -2,6 +2,7 @@ import React, { Component } from 'react';
 import Link from 'gatsby-link';
 import styled from 'styled-components';
 import Cookie from 'js-cookie';
+import { FormattedMessage } from 'react-intl';
 
 const Selector = styled.div`
     ul {
@@ -34,7 +35,7 @@ class LanguageLink extends Component {
         return (
             <li selected={lang.selected} key={lang.langKey}>
                 <LangLink to={lang.link} onClickCapture={this.onClickCapture}>
-                    {lang.langKey}
+                    <FormattedMessage id={lang.langKey} />
                 </LangLink>
             </li>
         );

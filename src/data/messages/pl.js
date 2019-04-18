@@ -1,3 +1,4 @@
 module.exports = {
-    language: "polski"
+    pl: "Polski",
+    en: "Angielski"
 }
