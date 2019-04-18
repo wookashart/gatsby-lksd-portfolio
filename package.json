@@ -3,22 +3,32 @@
   "private": true,
   "description": "A simple starter to get up and developing quickly with Gatsby",
   "version": "0.1.0",
-  "author": "Kyle Mathews <mathews.kyle@gmail.com>",
+  "author": "Łukasz Krawczyk",
   "dependencies": {
     "gatsby": "^2.3.16",
     "gatsby-image": "^2.0.37",
+    "gatsby-plugin-i18n": "^1.0.1",
     "gatsby-plugin-manifest": "^2.0.28",
     "gatsby-plugin-offline": "^2.0.25",
     "gatsby-plugin-react-helmet": "^3.0.12",
     "gatsby-plugin-sharp": "^2.0.32",
+    "gatsby-plugin-styled-components": "^3.0.7",
     "gatsby-source-filesystem": "^2.0.29",
     "gatsby-transformer-sharp": "^2.1.17",
+    "in-browser-language": "^1.0.3",
+    "intl": "^1.2.5",
+    "js-cookie": "^2.2.0",
     "prop-types": "^15.7.2",
+    "ptz-i18n": "^1.0.0",
     "react": "^16.8.6",
     "react-dom": "^16.8.6",
-    "react-helmet": "^5.2.0"
+    "react-helmet": "^5.2.0",
+    "react-intl": "^2.8.0",
+    "recompose": "^0.30.0",
+    "styled-components": "^4.2.0"
   },
   "devDependencies": {
+    "babel-plugin-styled-components": "^1.10.0",
     "prettier": "^1.17.0"
   },
   "keywords": [
