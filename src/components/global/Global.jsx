@@ -11,6 +11,12 @@ const GlobalStyle = createGlobalStyle`
     * {
         box-sizing: border-box;
     }
+
+    #___gatsby {
+        > div {
+            overflow: hidden;
+        }
+    }
 `;
 
 export default ({ children }) => (

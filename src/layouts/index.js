@@ -5,7 +5,7 @@ import { IntlProvider } from 'react-intl';
 import inBrowserLanguage from 'in-browser-language';
 import Cookie from 'js-cookie';
 import GlobalLayout from '../components/global/Global';
-import LanguageSelector from '../components/snippet/LanguageSelector';
+// import LanguageSelector from '../components/snippet/LanguageSelector';
 
 export default ({ children, location, i18nMessages }) => (
     <StaticQuery
@@ -46,7 +46,7 @@ export default ({ children, location, i18nMessages }) => (
                     locale={langKey}
                     messages={i18nMessages}>
                     <GlobalLayout>
-                        <LanguageSelector langs={langsMenu} />
+                        {/* <LanguageSelector langs={langsMenu} /> */}
                         {children}
                     </GlobalLayout>
                 </IntlProvider>
