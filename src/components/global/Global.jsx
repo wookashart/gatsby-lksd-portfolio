@@ -1,15 +1,31 @@
 import React, { Fragment } from 'react';
 import { Helmet } from 'react-helmet';
 import { createGlobalStyle } from 'styled-components';
+import '../../styles/variables.css';
 
 const GlobalStyle = createGlobalStyle`
+    @import url('https://fonts.googleapis.com/css?family=Raleway:400,400i,600,700,900&subset=latin-ext');
+
     html, body {
         margin: 0;
         padding: 0;
+        font-size: 10px;
     }
 
     * {
         box-sizing: border-box;
+        font-family: 'Raleway', sans-serif;
+    }
+
+    a {
+        text-decoration: none;
+        color: var(--black);
+    }
+
+    ul {
+        list-style: none;
+        padding: 0;
+        margin: 0;
     }
 
     #___gatsby {
@@ -23,7 +39,7 @@ export default ({ children }) => (
     <Fragment>
         <Helmet>
             <meta charSet="utf-8" />
-            <title>xxx</title>
+            <title>LKSD</title>
             {/* <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png?v=1546712715865" />
             <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png?v=1546712715865" />
             <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png?v=1546712715865" />

@@ -2,7 +2,6 @@ import React, { Component, Fragment } from 'react';
 import styled from 'styled-components';
 import Navigation from './snippet/Navigation';
 import { Hamburger } from './snippet/Hamburger';
-import '../styles/variable.css';
 
 class HomePage extends Component {
     state = {
@@ -15,7 +14,7 @@ class HomePage extends Component {
                 <Hamburger onClick={() => this.setState({ navOpen: !this.state.navOpen })} className={this.state.navOpen ? 'is-open' : 'is-close'} />
                 <Layout navOpen={this.state.navOpen}>
                     <div className="page__navigation">
-                        <Navigation />
+                        <Navigation navOpen={this.state.navOpen} />
                     </div>
                     <div className="page__sections">
                         test
@@ -29,14 +28,14 @@ class HomePage extends Component {
 const Layout = styled.main`
     display: flex;
     flex-flow: row nowrap;
-    transform: ${props => props.navOpen ? 'translateX(0)' : 'translateX(-250px)'};
-    transition: 150ms transform linear;
-    width: calc(100% + 250px);
-    height: 100vh; /* to remove */
+    transform: ${props => props.navOpen ? 'translateX(-100px)' : 'translateX(-350px)'};
+    transition: 250ms transform var(--timing-elastic);
+    width: calc(100% + 350px);
+    min-height: 100vh;
 
     .page {
         &__navigation {
-            width: 250px;
+            width: 350px;
             background: var(--navigation);
         }
 

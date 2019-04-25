@@ -1,5 +1,4 @@
 import styled from 'styled-components';
-import '../../styles/variable.css';
 
 export const Hamburger = styled.div`
     position: absolute;
@@ -9,7 +8,7 @@ export const Hamburger = styled.div`
     width: 45px;
     cursor: pointer;
     z-index: 10;
-    border-bottom: 4px solid var(--black);
+    border-bottom: 4px solid var(--orange);
     transition: 500ms transform ease, 200ms border-bottom linear;
     border-radius: 2px;
 
@@ -22,7 +21,7 @@ export const Hamburger = styled.div`
         height: 4px;
         width: 100%;
         border-radius: 3px;
-        background-color: var(--black);
+        background-color: var(--orange);
         transform-origin: right top;
         transition: 200ms transform linear;
     }
