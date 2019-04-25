@@ -2,6 +2,7 @@ import React, { Component, Fragment } from 'react';
 import styled from 'styled-components';
 import Navigation from './snippet/Navigation';
 import { Hamburger } from './snippet/Hamburger';
+import '../styles/variable.css';
 
 class HomePage extends Component {
     state = {
@@ -11,7 +12,7 @@ class HomePage extends Component {
     render() {
         return (
             <Fragment>
-                <Hamburger onClick={() => this.setState({ navOpen: !this.state.navOpen })} />
+                <Hamburger onClick={() => this.setState({ navOpen: !this.state.navOpen })} className={this.state.navOpen ? 'is-open' : 'is-close'} />
                 <Layout navOpen={this.state.navOpen}>
                     <div className="page__navigation">
                         <Navigation />
@@ -36,7 +37,7 @@ const Layout = styled.main`
     .page {
         &__navigation {
             width: 250px;
-            background: gray;
+            background: var(--navigation);
         }
 
         &__sections {
