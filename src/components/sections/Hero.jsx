@@ -43,4 +43,16 @@ const HeroContent = styled.div`
     text-align: center;
     position: relative;
     z-index: 1;
+
+    h1 {
+        &::before,
+        &::after {
+            content: '';
+            display: block;
+            height: 2px;
+            width: 100%;
+            background-color: var(--orange);
+            margin: 10px auto;
+        }
+    }
 `;
