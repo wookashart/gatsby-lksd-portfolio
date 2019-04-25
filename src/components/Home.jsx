@@ -1,6 +1,7 @@
 import React, { Component, Fragment } from 'react';
 import styled from 'styled-components';
 import Navigation from './snippet/Navigation';
+import Sections from './global/Sections';
 import { Hamburger } from './snippet/Hamburger';
 
 class HomePage extends Component {
@@ -17,7 +18,7 @@ class HomePage extends Component {
                         <Navigation navOpen={this.state.navOpen} />
                     </div>
                     <div className="page__sections">
-                        test
+                        <Sections />
                     </div>
                 </Layout>
             </Fragment>

@@ -10,4 +10,16 @@ module.exports = {
     nav5: 'Work',
     nav6: 'Contact',
     // -------- GLOBAL END --------
+
+
+    // -------- HERO --------
+    heroTitle: 'Łukasz Krawczyk',
+    heroSubtitle: 'Front-end Developer',
+    heroButton: 'Find out more about me',
+    // -------- HERO END --------
+
+
+    // -------- EXAMPLE --------
+
+    // -------- EXAMPLE END --------
 }
