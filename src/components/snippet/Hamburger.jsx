@@ -1,13 +1,13 @@
 import styled from 'styled-components';
 
 export const Hamburger = styled.div`
-    position: absolute;
+    position: fixed;
+    z-index: 11;
     top: 50px;
     left: 50px;
     height: 25px;
     width: 45px;
     cursor: pointer;
-    z-index: 10;
     border-bottom: 4px solid var(--orange);
     transition: 500ms transform ease, 200ms border-bottom linear;
     border-radius: 2px;

@@ -12,38 +12,23 @@ class HomePage extends Component {
     render() {
         return (
             <Fragment>
-                <Hamburger onClick={() => this.setState({ navOpen: !this.state.navOpen })} className={this.state.navOpen ? 'is-open' : 'is-close'} />
+                <Hamburger
+                    onClick={() => this.setState({ navOpen: !this.state.navOpen })}
+                    className={this.state.navOpen ? 'is-open' : 'is-close'}
+                />
+                <Navigation navOpen={this.state.navOpen} />
                 <Layout navOpen={this.state.navOpen}>
-                    <div className="page__navigation">
-                        <Navigation navOpen={this.state.navOpen} />
-                    </div>
-                    <div className="page__sections">
-                        <Sections />
-                    </div>
+                    <Sections />
                 </Layout>
             </Fragment>
-        )
+        );
     }
 }
 
 const Layout = styled.main`
-    display: flex;
-    flex-flow: row nowrap;
-    transform: ${props => props.navOpen ? 'translateX(-100px)' : 'translateX(-350px)'};
+    transform: ${props => props.navOpen ? 'translateX(250px)' : 'translateX(0)'};
     transition: 250ms transform var(--timing-elastic);
-    width: calc(100% + 350px);
-    min-height: 100vh;
-
-    .page {
-        &__navigation {
-            width: 350px;
-            background: var(--navigation);
-        }
-
-        &__sections {
-            flex: 1;
-        }
-    }
+    height: 10000vh;
 `;
 
 export default HomePage;
