@@ -57,6 +57,19 @@ const GlobalStyle = createGlobalStyle`
         }
     }
 
+    h4,
+    h4 span {
+        font-weight: 600;
+        font-size: 1.8rem;
+
+        ${media.tablet} {
+            font-size: 2rem;
+        }
+        ${media.desktop} {
+            font-size: 2.2rem;
+        }
+    }
+
     p,
     p span {
         font-weight: 400;
