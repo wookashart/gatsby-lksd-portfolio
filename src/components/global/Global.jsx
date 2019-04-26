@@ -17,10 +17,21 @@ const GlobalStyle = createGlobalStyle`
         font-family: 'Raleway', sans-serif;
     }
 
-    h1, h1 span {
+    h1,
+    h1 span {
         font-weight: 700;
         font-size: 5rem;
-        color: var(--white);
+    }
+
+    h3,
+    h3 span {
+        font-weight: 600;
+        font-size: 2.8rem;
+    }
+
+    p {
+        font-weight: 400;
+        font-size: 1.8rem;
     }
 
     a {

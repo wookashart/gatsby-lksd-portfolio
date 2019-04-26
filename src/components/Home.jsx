@@ -28,7 +28,6 @@ class HomePage extends Component {
 const Layout = styled.main`
     transform: ${props => props.navOpen ? 'translateX(250px)' : 'translateX(0)'};
     transition: 250ms transform var(--timing-elastic);
-    height: 10000vh;
 `;
 
 export default HomePage;

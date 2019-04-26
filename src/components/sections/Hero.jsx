@@ -1,6 +1,7 @@
 import React from 'react';
 import styled from 'styled-components';
 import { FormattedMessage } from 'react-intl';
+import ButtonBase from '../global/ButtonBase';
 
 import background from '../../images/alejandro-escamilla-1-unsplash.jpg';
 
@@ -11,9 +12,10 @@ export default () => (
             <h1>
                 <FormattedMessage id="heroTitle" />
             </h1>
-            <h3>
+            <p>
                 <FormattedMessage id="heroSubtitle" />
-            </h3>
+            </p>
+            <ButtonBase id="heroButton" />
         </HeroContent>
     </Hero>
 );
@@ -54,5 +56,15 @@ const HeroContent = styled.div`
             background-color: var(--orange);
             margin: 10px auto;
         }
+    }
+
+    h1,
+    p {
+        margin: 0;
+        color: var(--white);
+    }
+
+    p {
+        margin-bottom: 15px;
     }
 `;
