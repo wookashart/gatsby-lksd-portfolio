@@ -24,13 +24,13 @@ class NavigationComponent extends Component {
         const { navOpen } = this.props;
 
         return (
-            <Navigation start={navOpen}>
+            <Navigation start={navOpen ? 1 : 0}>
                 <ul>
                     {navList.map((nav, index) =>
                         <li key={index}>
                             <NavLink
                                 to="/"
-                                start={navOpen}
+                                start={navOpen ? 1 : 0}
                                 delay={300 + (index * 120)}
                                 onClick={e => this.navigation(e, nav)}
                             >
@@ -79,11 +79,14 @@ const NavLink = styled(Link)`
     display: block;
     text-align: right;
     color: var(--white);
-    font-size: 1.8rem;
     transform: ${props => props.start ? 'translateX(0)' : 'translateX(-50%)'};
     opacity: ${props => props.start ? '1' : '0'};
     transition: 150ms all var(--timing-elastic);
     transition-delay: ${props => props.start ? `${props.delay}ms` : '0ms'};
+
+    span {
+        font-size: 1.8rem;
+    }
 `;
 
 export default NavigationComponent;

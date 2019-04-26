@@ -2,6 +2,7 @@ import React, { Fragment } from 'react';
 import { Helmet } from 'react-helmet';
 import { createGlobalStyle } from 'styled-components';
 import '../../styles/variables.css';
+import media from '../../styles/media';
 
 const GlobalStyle = createGlobalStyle`
     @import url('https://fonts.googleapis.com/css?family=Raleway:400,400i,600,700,900&subset=latin-ext');
@@ -20,18 +21,50 @@ const GlobalStyle = createGlobalStyle`
     h1,
     h1 span {
         font-weight: 700;
-        font-size: 5rem;
+        font-size: 3rem;
+
+        ${media.tablet} {
+            font-size: 3.8rem;
+        }
+        ${media.desktop} {
+            font-size: 5rem;
+        }
+    }
+
+    h2,
+    h2, span {
+        font-weight: 700;
+        font-size: 2.4rem;
+
+        ${media.tablet} {
+            font-size: 3rem;
+        }
+        ${media.desktop} {
+            font-size: 3.4rem;
+        }
     }
 
     h3,
     h3 span {
         font-weight: 600;
-        font-size: 2.8rem;
+        font-size: 2rem;
+
+        ${media.tablet} {
+            font-size: 2.2rem;
+        }
+        ${media.desktop} {
+            font-size: 2.8rem;
+        }
     }
 
-    p {
+    p,
+    p span {
         font-weight: 400;
-        font-size: 1.8rem;
+        font-size: 1.6rem;
+
+        ${media.tablet} {
+            font-size: 1.8rem;
+        }
     }
 
     a {

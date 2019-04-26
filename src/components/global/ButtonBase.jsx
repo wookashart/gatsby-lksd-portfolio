@@ -1,6 +1,7 @@
 import React from 'react';
 import styled from 'styled-components';
 import { FormattedMessage } from 'react-intl';
+import media from '../../styles/media';
 
 export default ({ id }) => (
     <Button>
@@ -13,10 +14,17 @@ const Button = styled.button`
     color: var(--white);
     background-color: var(--orange);
     border: none;
-    font-size: 1.6rem;
     display: inline-block;
     padding: 10px 20px;
     cursor: pointer;
+
+    span {
+        font-size: 1.4rem;
+
+        ${media.tablet} {
+            font-size: 1.6rem;
+        }
+    }
 
     &:focus {
         outline: none;
