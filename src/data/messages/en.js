@@ -51,9 +51,13 @@ module.exports = {
     experienceWork3: 'VMLY&R Poland',
     experienceWork3position: '@ Front-End Developer',
     experienceWork3date: '0000 - 0000',
-    experienceWork3description: 'Lorem ipsum ...'
+    experienceWork3description: 'Lorem ipsum ...',
     // -------- EXPERIENCE END --------
 
+
+    // -------- SKILLS --------
+    skillsTitle: 'Skills'
+    // -------- SKILLS END --------
 
     // -------- EXAMPLE --------
 
