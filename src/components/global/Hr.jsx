@@ -1,4 +1,5 @@
 import styled from 'styled-components';
+import media from '../../styles/media';
 
 export const Hr = styled.hr`
     position: relative;
@@ -7,9 +8,17 @@ export const Hr = styled.hr`
     &::before {
         content: '';
         display: block;
-        margin: 100px auto;
+        margin: 20px auto;
         height: 1px;
         width: 100%;
         background-color: var(--gray);
+
+        ${media.tablet} {
+            margin: 50px auto;
+        }
+
+        ${media.desktop} {
+            margin: 100px auto;
+        }
     }
 `;

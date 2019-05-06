@@ -1,12 +1,18 @@
 import styled from 'styled-components';
+import media from '../../../styles/media';
 
 export const Dot = styled.div`
+    display: none;
     position: relative;
     width: 40px;
     height: 40px;
     border-radius: 100%;
     border: 2px solid var(--purple);
     margin: auto;
+
+    ${media.desktop} {
+        display: block;
+    }
 
     &::after {
         content: '';

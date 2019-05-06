@@ -21,6 +21,12 @@ export default () => (
                     position: 'experienceWork2position',
                     date: 'experienceWork2date',
                     description: 'experienceWork2description'
+                }],
+                [{
+                    title: 'experienceWork3',
+                    position: 'experienceWork3position',
+                    date: 'experienceWork3date',
+                    description: 'experienceWork3description'
                 }]
             ]} />
             <Hr />

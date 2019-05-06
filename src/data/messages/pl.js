@@ -18,6 +18,7 @@ module.exports = {
     heroButton: 'Dowiedz się więcej o mnie',
     // -------- HERO END --------
 
+    
     // -------- ABOUT ME --------
     aboutTitle: 'O mnie',
     aboutDescription: 'Lorem ipsum ...',
@@ -37,25 +38,20 @@ module.exports = {
     // -------- EXPERIENCE --------
     experienceTitle: 'Doświadczenie',
     
-    experienceWork1: 'XXX',
-    experienceWork1position: '@XXX positoin',
-    experienceWork1date: '0000 - 0000',
+    experienceWork1: 'Asco Systemy Informatyczne',
+    experienceWork1position: '@ Web Developer',
+    experienceWork1date: '04.2017 - 12.2017',
     experienceWork1description: 'Lorem ipsum ...',
 
-    experienceWork2: 'XXX2',
-    experienceWork2position: '@XXX2 positoin',
-    experienceWork2date: '0000 - 0000',
+    experienceWork2: 'VMLY&R Poland',
+    experienceWork2position: '@ Junior Front-End Developer',
+    experienceWork2date: '01.2018 - obecnie',
     experienceWork2description: 'Lorem ipsum ...',
 
-    experienceWork3: 'XXX3',
-    experienceWork3position: '@XXX3 positoin',
+    experienceWork3: 'VMLY&R Poland',
+    experienceWork3position: '@ Front-End Developer',
     experienceWork3date: '0000 - 0000',
-    experienceWork3description: 'Lorem ipsum ...',
-
-    experienceWork4: 'XXX4',
-    experienceWork4position: '@XXX4 positoin',
-    experienceWork4date: '0000 - 0000',
-    experienceWork4description: 'Lorem ipsum ...'
+    experienceWork3description: 'Lorem ipsum ...'
     // -------- EXPERIENCE END --------
 
 
