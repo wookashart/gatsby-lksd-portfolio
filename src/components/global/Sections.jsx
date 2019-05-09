@@ -3,6 +3,7 @@ import Hero from '../sections/Hero';
 import About from '../sections/About';
 import Experience from '../sections/Experience';
 import Skills from '../sections/Skills';
+import Work from '../sections/Work';
 
 export default () => (
     <Fragment>
@@ -10,5 +11,6 @@ export default () => (
         <About />
         <Experience />
         <Skills />
+        <Work />
     </Fragment>
 );
