@@ -3,11 +3,10 @@ import styled from 'styled-components';
 import { FormattedMessage } from 'react-intl';
 import ButtonBase from '../global/ButtonBase';
 
-import background from '../../images/alejandro-escamilla-1-unsplash.jpg';
+import background from '../../images/hero-background.jpg';
 
 export default () => (
     <Hero data-section="nav1">
-        <HeroBackground />
         <HeroContent>
             <h1>
                 <FormattedMessage id="heroTitle" />
@@ -26,19 +25,10 @@ const Hero = styled.section`
     display: flex;
     justify-content: center;
     align-items: center;
-`;
-
-const HeroBackground = styled.div`
-    position: absolute;
-    top: 0;
-    bottom: 0;
-    left: 0;
-    right: 0;
     background-image: url(${background});
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
-    filter: grayscale(1) blur(2px);
 `;
 
 const HeroContent = styled.div`

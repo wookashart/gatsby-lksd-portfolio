@@ -56,7 +56,33 @@ module.exports = {
 
 
     // -------- SKILLS --------
-    skillsTitle: 'Skills'
+    skillsTitle: 'Skills',
+    skill1Title: 'HTML',
+    skill1Description: 'Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum ',
+
+    skill2Title: 'CSS',
+    skill2Description: 'Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum ',
+
+    skill3Title: 'React',
+    skill3Description: 'Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum ',
+
+    skill4Title: 'Vue.js',
+    skill4Description: 'Lorem ipsum Lorem ipsumLorem ipsum Lorem ipsum',
+
+    skill5Title: 'SASS',
+    skill5Description: 'Lorem ipsum Lorem ipsumLorem ipsum Lorem ipsumLorem ipsum Lorem ipsumLorem ipsum Lorem ipsum',
+
+    skill6Title: 'MySQL',
+    skill6Description: 'Lorem ipsum Lorem ipsum ',
+
+    skill7Title: 'MongoDB',
+    skill7Description: 'Lorem ipsum Lorem ipsum Lorem ipsum ',
+
+    skill8Title: 'Node.js',
+    skill8Description: 'Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum ',
+
+    skill9Title: 'Redux',
+    skill9Description: 'Lorem ipsum Lorem ipsum Lorem ipsum '
     // -------- SKILLS END --------
 
     // -------- EXAMPLE --------

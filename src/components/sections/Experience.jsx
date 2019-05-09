@@ -1,7 +1,6 @@
 import React from 'react';
 import styled from 'styled-components';
 import { MaxWidthBox } from '../global/MaxWidthBox';
-import { Hr } from '../global/Hr';
 import Header from '../global/H2Underline';
 import ExperienceLine from './experience/ExperienceLine';
 
@@ -29,7 +28,6 @@ export default () => (
                     description: 'experienceWork3description'
                 }]
             ]} />
-            <Hr />
         </MaxWidthBox>
     </Experience>
 );

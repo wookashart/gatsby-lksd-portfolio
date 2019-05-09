@@ -2,15 +2,17 @@ import React from 'react';
 import styled from 'styled-components';
 import { FormattedMessage } from 'react-intl';
 
-export default ({ id }) => (
-    <Header>
+export default ({ id, color }) => (
+    <Header color={color}>
         <FormattedMessage id={id} />
     </Header>
 );
 
 const Header = styled.h2`
-    h2 {
-        margin-bottom: 10px;
+    margin-bottom: 10px;
+
+    span {
+        color: ${props => props.color ? `var(--${props.color})` : false};
     }
 
     &::after {
