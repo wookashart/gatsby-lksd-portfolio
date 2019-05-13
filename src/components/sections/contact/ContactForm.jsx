@@ -44,11 +44,13 @@ const ContactForm = styled.form`
     &::after {
         content: '';
         position: absolute;
-        width: 2px;
+        width: 1px;
         top: 0;
+        bottom: 0;
         left: auto;
         right: -20px;
-        height: 100%;
+        height: 90%;
+        margin: auto;
         background-color: var(--gray);
         margin-left: 30px;
     }

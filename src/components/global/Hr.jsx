@@ -18,7 +18,7 @@ export const Hr = styled.hr`
         }
 
         ${media.desktop} {
-            margin: 100px auto;
+            margin: 70px auto;
         }
     }
 `;

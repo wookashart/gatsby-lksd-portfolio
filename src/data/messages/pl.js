@@ -11,6 +11,7 @@ module.exports = {
     nav6: 'Kontakt',
 
     visitPage: 'Odwiedź stronę',
+    footerDisclaimer: 'Łukasz Krawczyk Software Development',
     // -------- GLOBAL END --------
 
 
