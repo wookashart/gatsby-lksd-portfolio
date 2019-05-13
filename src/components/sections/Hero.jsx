@@ -1,23 +1,40 @@
 import React from 'react';
 import styled from 'styled-components';
+import scrollToElement from 'scroll-to-element';
 import { FormattedMessage } from 'react-intl';
 import ButtonBase from '../global/ButtonBase';
 
 import background from '../../images/hero-background.jpg';
 
-export default () => (
-    <Hero data-section="nav1">
-        <HeroContent>
-            <h1>
-                <FormattedMessage id="heroTitle" />
-            </h1>
-            <p>
-                <FormattedMessage id="heroSubtitle" />
-            </p>
-            <ButtonBase id="heroButton" />
-        </HeroContent>
-    </Hero>
-);
+class HeroComponent extends React.Component {
+    scroll = () => {
+        scrollToElement(`[data-section="nav2"]`, {
+            offset: 0,
+            ease: 'out-expo',
+            duration: 1000
+        });
+    }
+
+    render() {
+        return (
+            <Hero data-section="nav1">
+                <HeroContent>
+                    <h1>
+                        <FormattedMessage id="heroTitle" />
+                    </h1>
+                    <p>
+                        <FormattedMessage id="heroSubtitle" />
+                    </p>
+                    <div onClick={this.scroll}>
+                        <ButtonBase id="heroButton" />
+                    </div>
+                </HeroContent>
+            </Hero>
+        );
+    }
+}
+
+export default HeroComponent;
 
 const Hero = styled.section`
     position: relative;

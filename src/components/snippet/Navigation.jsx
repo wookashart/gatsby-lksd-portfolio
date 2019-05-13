@@ -14,7 +14,7 @@ class NavigationComponent extends Component {
 
         scrollToElement(`[data-section="${nav}"]`, {
             offset: 0,
-            ease: 'out-bounce',
+            ease: 'out-expo',
             duration: 1000
         });
     }
