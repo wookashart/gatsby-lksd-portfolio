@@ -2,6 +2,7 @@ import React, { Component, Fragment } from 'react';
 import styled from 'styled-components';
 import Navigation from './snippet/Navigation';
 import Sections from './global/Sections';
+import Footer from './snippet/Footer';
 import { Hamburger } from './snippet/Hamburger';
 
 class HomePage extends Component {
@@ -20,6 +21,7 @@ class HomePage extends Component {
                 <Layout navOpen={this.state.navOpen}>
                     <Sections />
                 </Layout>
+                <Footer />
             </Fragment>
         );
     }

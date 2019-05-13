@@ -70,6 +70,20 @@ const GlobalStyle = createGlobalStyle`
         }
     }
 
+    h5,
+    h5 span {
+        font-weight: 600;
+        font-size: 1.6rem;
+        margin: 5px 0;
+
+        ${media.tablet} {
+            font-size: 1.8rem;
+        }
+        ${media.desktop} {
+            font-size: 2rem;
+        }
+    }
+
     p,
     p span {
         font-weight: 400;

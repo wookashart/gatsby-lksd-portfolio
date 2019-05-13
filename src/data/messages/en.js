@@ -110,8 +110,19 @@ module.exports = {
 
     // -------- CONTACT --------
     contactTitle: 'Contact',
+
+    contactFormTitle: 'Leave message',
+    contactFormName: 'Your name',
+    contactFormEmail: 'Your email',
+    contactFormSubject: 'Subject',
+    contactFormMessage: 'Message',
+    contactFormSubmit: 'Send',
+
     contactPhoneNumber: '+48 515 598 375',
+    contactPhoneNumberTitle: 'Phone',
     contactEmail1: 'lukasz.krawczyk@lksd.pl',
-    contactEmail2: 'luki88kr@gmail.com'
+    contactEmail1Title: 'Email 1',
+    contactEmail2: 'luki88kr@gmail.com',
+    contactEmail2Title: 'Email 2'
     // -------- CONTACT END --------
 };

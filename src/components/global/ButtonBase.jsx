@@ -3,8 +3,8 @@ import styled from 'styled-components';
 import { FormattedMessage } from 'react-intl';
 import media from '../../styles/media';
 
-export default ({ id }) => (
-    <Button>
+export default ({ id, type }) => (
+    <Button type={type}>
         <FormattedMessage id={id} />
     </Button>
 );

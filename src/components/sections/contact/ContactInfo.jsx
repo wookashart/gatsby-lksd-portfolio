@@ -11,10 +11,13 @@ export default ({ info }) => (
     <Info>
         {info.map((el, index) =>
             <li key={index}>
-                <a href={el.type === 'mail' ? `mailto:${el.contact}` : `tel:${el.contact}`} rel="nofollow">
-                    {el.type === 'mail' ? <Mail /> : <Phone />}
-                    <FormattedMessage id={el.text} />
-                </a>
+                {el.type === 'mail' ? <Mail /> : <Phone />}
+                <div>
+                    <FormattedMessage id={el.title} />
+                    <a href={el.type === 'mail' ? `mailto:${el.contact}` : `tel:${el.contact}`} rel="nofollow">
+                        <FormattedMessage id={el.text} />
+                    </a>
+                </div>
             </li>    
         )}
     </Info>
@@ -23,52 +26,42 @@ export default ({ info }) => (
 const Info = styled.ul`
     display: flex;
     flex-flow: column;
-    justify-content: center;
-    align-items: center;
+    flex: 1;
 
     ${media.tablet} {
-        flex-flow: row wrap;
+        padding-left: 35px;
     }
 
-    ${media.desktop} {
-        flex-flow: row nowrap;
+    svg {
+        width: 50px;
     }
 
     li {
-        margin: 5px;
         display: flex;
+        align-items: center;
+        margin: 5px;
+        width: 100%;
 
         ${media.tablet} {
             margin: 15px;
+        }
 
-            &::after {
-                content: '';
-                display: block;
-                width: 2px;
-                height: 50px;
-                background-color: var(--gray);
-                margin-left: 30px;
-            }
-
-            &:last-of-type {
-                &::after {
-                    display: none;
-                }
-            }
+        > div span {
+            display: block;
+            margin-left: 20px;
+            margin-bottom: 5px;
+            font-size: 1.6rem;
         }
 
         a {
             display: flex;
             align-items: center;
+            justify-content: flex-start;
             transition: 150ms color linear;
             
             span {
                 margin-left: 20px;
-                font-size: 1.6rem;
-            }
-
-            svg {
-                width: 30px;
+                font-size: 1.4rem;
             }
 
             &:hover {
