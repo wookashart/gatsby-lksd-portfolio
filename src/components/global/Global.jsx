@@ -35,6 +35,7 @@ const GlobalStyle = createGlobalStyle`
     h2, span {
         font-weight: 700;
         font-size: 2.4rem;
+        letter-spacing: 1.5px;
 
         ${media.tablet} {
             font-size: 3rem;
