@@ -5,22 +5,51 @@ import Cookie from 'js-cookie';
 import { FormattedMessage } from 'react-intl';
 
 const Selector = styled.div`
+    position: absolute;
+    top: 15px;
+    right: 15px;
+    z-index: 10;
+
     ul {
         display: flex;
         justify-content: flex-start;
         list-style: none;
         padding: 0;
         margin: 0;
+
+        li {
+            position: relative;
+
+            &:nth-of-type(1) {
+                &::after {
+                    content: '';
+                    position: absolute;
+                    top: 0;
+                    right: 0;
+                    width: 1px;
+                    height: 100%;
+                    background-color: var(--white);
+                    opacity: 0.8;
+                }
+            }
+        }
     }
 `;
 
 const LangLink = styled(Link)`
     text-decoration: none;
-    font-size: 1.2rem;
-    color: black;
+    color: var(--white);
+    opacity: 0.8;
+
+    span {
+        font-size: 1.5rem;
+        text-transform: uppercase;
+        padding: 10px;
+    }
 
     &[aria-current="page"] {
-        color: red;
+        color: var(--orange);
+        opacity: 1;
     }
 `;
 

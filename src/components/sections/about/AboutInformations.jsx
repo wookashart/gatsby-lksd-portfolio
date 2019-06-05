@@ -1,7 +1,6 @@
 import React from 'react';
 import styled from 'styled-components';
 import { FormattedMessage } from 'react-intl';
-import { Link } from 'gatsby';
 import media from '../../../styles/media';
 
 export default ({ arr }) => (
@@ -13,11 +12,11 @@ export default ({ arr }) => (
                         <FormattedMessage id={el.title} />
                     </span>
                     {el.url && el.url !== '' ? (
-                        <Link to={el.url} rel="nofollow">
+                        <a href={el.url} rel="nofollow">
                             <span className="about-me__information--subtitle">
                                 <FormattedMessage id={el.subtitle} />
                             </span>
-                        </Link>
+                        </a>
                     ) : (
                         <span className="about-me__information--subtitle">
                             <FormattedMessage id={el.subtitle} />
