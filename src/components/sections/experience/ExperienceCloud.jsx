@@ -42,7 +42,7 @@ const Cloud = styled.div`
     box-shadow: ${props => props.side === 'top' ? 'var(--shadow-base)' : 'var(--shadow-left)'};
 
     ${media.desktop} {
-        width: 400px;
+        width: calc(50% - 140px);
         margin-top: 0;
         position: absolute;
         top: ${props => props.side === 'top' ? '0' : 'auto'};

@@ -27,7 +27,7 @@ module.exports = {
     
     // -------- ABOUT ME --------
     aboutTitle: 'O mnie',
-    aboutDescription: 'Lorem ipsum ...',
+    aboutDescription: 'Swoją przygodę z tworzeniem stron internetowych rozpocząłem pod koniec 2016r i od razu stwierdziłem, że jest to coś, czym chcę się zajmować, ponieważ sprawia mi wielką przyjemność. Przygotowane przeze mnie strony charakteryzują się spójnym i estetycznym wyglądem. Zanim zająłem się stonami internetowymi, zajmowałem się projektowaniem ogrodów, dlatego poczucie estetyki jest we mnie głęboko zakorzenione. Zawsze wkładam całe serce w wykonywaną przeze mnie pracę. Idąc z duchem czasu, jestem na bieżąco z najnowszymi trendami i technologiami aby strorny które tworzę wpisywały się w obecne trendy wyglądu oraz funkcjonalności. Jeśli chcesz mnie poznać bliżej - napisz.',
     aboutInfoTitle1: 'Imię:',
     aboutInfoTitle2: 'Wiek:',
     aboutInfoTitle3: 'Email:',
@@ -47,68 +47,69 @@ module.exports = {
     experienceWork1: 'Asco Systemy Informatyczne',
     experienceWork1position: '@ Web Developer',
     experienceWork1date: '04.2017 - 12.2017',
-    experienceWork1description: 'Lorem ipsum ...',
+    experienceWork1description: 'Utrzymanie, konserwacja oraz konfiguracja sklepów internetowych, wprowadzanie zmian w wyglądzie na życzenie klienta, lub na podstawie nowego projektu graficznego strony, obsługa autorskiego CMS\'a.',
 
     experienceWork2: 'VMLY&R Poland',
     experienceWork2position: '@ Junior Front-End Developer',
     experienceWork2date: '01.2018 - obecnie',
-    experienceWork2description: 'Lorem ipsum ...',
-
-    experienceWork3: 'VMLY&R Poland',
-    experienceWork3position: '@ Front-End Developer',
-    experienceWork3date: '0000 - 0000',
-    experienceWork3description: 'Lorem ipsum ...',
+    experienceWork2description: 'Tworzenie stron, oraz aplikacji internetowch według projektu z PSD lub Zeplinie. Praca nad komponentami stron internetowych, na bazie AEM\'a. Wybór technologii w jakiej mają zostać napisne strony, a później pisanie kodu w wybranej technologii. Używane technologie: podstawowa (gulp, SASS, jQuery), Vue.js (Nuxt.js), React.js (create-react-app, Gatsby).',
     // -------- EXPERIENCE END --------
 
 
     // -------- SKILLS --------
     skillsTitle: 'Umiejętności',
-    skill1Title: 'HTML',
-    skill1Description: 'Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum ',
+    skill1Title: 'Podstawowe',
+    skill1Description: 'Bardzo dobra znajomość HTML5, CSS3, SASS, podstawowa znajomość Bootstrap.',
 
-    skill2Title: 'CSS',
-    skill2Description: 'Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum ',
+    skill2Title: 'Javascript',
+    skill2Description: 'Dobra znajomość ES6 oraz jQuery',
 
-    skill3Title: 'React',
-    skill3Description: 'Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum ',
+    skill3Title: 'React.js',
+    skill3Description: 'Bardzo dobra znajomość React.js + podstawowa znajomość Redux. Pisanie aplikacji przy użyciu Gatsby lub poprzez create-react-app. Podstawowa umiejętność konfiguracji webpacka.',
 
     skill4Title: 'Vue.js',
-    skill4Description: 'Lorem ipsum Lorem ipsumLorem ipsum Lorem ipsum',
+    skill4Description: 'Dobra znajomość Vue.js + Vuex. Aplikacjie pisane w Nuxt oraz CLI3.',
 
-    skill5Title: 'SASS',
-    skill5Description: 'Lorem ipsum Lorem ipsumLorem ipsum Lorem ipsumLorem ipsum Lorem ipsumLorem ipsum Lorem ipsum',
+    skill5Title: 'Node.js',
+    skill5Description: 'Podstawowa umiejętność pisania w Node.js przy użyciu express, oraz implementacji baz danych MySQL oraz MongoDB.',
 
-    skill6Title: 'MySQL',
-    skill6Description: 'Lorem ipsum Lorem ipsum ',
+    skill6Title: 'Bazy danych',
+    skill6Description: 'Podstawowa znajomość relatywnych baz danych MySQL łącznie z pisaniem zapytań w SQL. Również podstawowa znajomość baz danych MongoDB - pisanie zapytań przy użyciu mongoose.',
 
-    skill7Title: 'MongoDB',
-    skill7Description: 'Lorem ipsum Lorem ipsum Lorem ipsum ',
+    skill7Title: 'CMS',
+    skill7Description: 'Bardzo dobra znajomość Adobe Experience Manager (AEM) - tworzenie reużywalnych komponentów i wdrażanie ich na stronie, konfiguracja ustawień CMS\'a. Podstawowa znajomość Wordpress oraz Blogger.',
 
-    skill8Title: 'Node.js',
-    skill8Description: 'Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum ',
-
-    skill9Title: 'Redux',
-    skill9Description: 'Lorem ipsum Lorem ipsum Lorem ipsum ',
+    skill8Title: 'Programy graficzne',
+    skill8Description: 'Podstawowa znajomość Photoshop, pozwalająca na dokładne "pocięcie" projektu strony i wykorzystanie gow pracy nad stroną. Również znajomość programu Zeplin i odczytywanie z niego wszystkich danych na temat projektu.',
     // -------- SKILLS END --------
 
 
     // -------- WORK --------
-    workTitle: 'Moje prace',
+    workTitle: 'Projekty',
 
-    work1Title: 'Pictemi Landing Page',
-    work1Description: 'Lorem ipsum Lorem ipsumLorem ipsum Lorem ipsumLorem ipsum Lorem ipsumLorem ipsum Lorem ipsum Lorem',
+    work1Title: 'Motoexpert Sklep',
+    work1Description: 'Strona stworzona na autorskim CMS\'ie - Webshop. Do przygotowania wyglądu oraz funkcjonalności użyto SASS oraz jQuery.',
     
-    work2Title: 'Colgate Professional',
-    work2Description: 'Lorem ipsum Lorem',
+    work2Title: 'CenterCar',
+    work2Description: 'Strona stworzona na autorskim CMS\'ie - Webshop. Do przygotowania wyglądu oraz funkcjonalności użyto SASS oraz jQuery.',
     
-    work3Title: 'Meridol Landing Page',
-    work3Description: 'Lorem ipsum Lorem ipsumLorem ipsum Lorem ipsumLorem ipsum Lorem ipsumLorem ipsum Lorem ipsum Lorem ipsum Lorem ipsumLorem ipsum Lorem ipsumLorem ipsum Lorem ipsumLorem ipsum Lorem ipsum',
+    work3Title: 'Colgate Professional',
+    work3Description: 'Przygotowanie strony masterowej w zespole 3 osobowym na Adobe Experience Manager. Tworzyłem tutaj poszczególne komponenty jak np. formularze rejestracji i edycji konta wraz z całą walidacją.',
     
-    work4Title: 'Kreacja Bogactwa',
-    work4Description: 'Lorem ipsum Lorem ipsumLorem ipsum Lorem ipsumLorem ipsum Lorem ipsumLorem ipsum Lorem ipsum Lorem ipsum Lorem ipsumLorem ipsum Lorem ipsumLorem ipsum Lorem ipsumLorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum',
+    work4Title: 'Sanex',
+    work4Description: 'Przygotowanie strony masterowej w zespole 3 osobowym na Adobe Experience Manager. Tworzyłem tutaj większość komponentów z których składa się strona jak np. karuzela czy footer oraz wiele innych.',
     
-    work5Title: 'Motoexpert',
-    work5Description: 'Lorem ipsum Lorem ipsumLorem',
+    work5Title: 'Palmolive',
+    work5Description: 'Przygotowanie strony masterowej w zespole 3 osobowym na Adobe Experience Manager. Tworzyłem tutaj większość komponentów z których składa się strona jak np. footer oraz wiele innych.',
+
+    work6Title: 'Moja przykładowa strona',
+    work6Description: 'Strona stworzona w całości przeze mnie w ramach ćwiczenia - front wykonany w React.js + styled components, a backend w Node.js (express).',
+
+    work7Title: 'Meridol Landing Page',
+    work7Description: 'Strona stworzona przeze mnie w całości od podstaw. Wykorzystałem tutaj gulp, SASS oraz jQuery.',
+
+    work8Title: 'Kreacjabogactwa',
+    work8Description: 'Strona stworzona przy użyciu Bloggera. Stworzyłem większość layoutu od podstaw oraz całość stylowania.',
     // -------- WORK END --------
     
 

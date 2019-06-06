@@ -18,8 +18,7 @@ export default () => (
                 { title: 'skill5Title', description: 'skill5Description' },
                 { title: 'skill6Title', description: 'skill6Description' },
                 { title: 'skill7Title', description: 'skill7Description' },
-                { title: 'skill8Title', description: 'skill8Description' },
-                { title: 'skill9Title', description: 'skill9Description' }
+                { title: 'skill8Title', description: 'skill8Description' }
             ]} />
         </MaxWidthBox>
     </Skills>
