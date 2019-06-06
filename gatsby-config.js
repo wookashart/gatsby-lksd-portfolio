@@ -17,5 +17,6 @@ module.exports = {
                 prefixDefault: false
             }
         }
-    ]
+    ],
+    pathPrefix: '/gatsby-lksd-portfolio'
 };
