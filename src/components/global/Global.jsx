@@ -88,10 +88,10 @@ const GlobalStyle = createGlobalStyle`
     p,
     p span {
         font-weight: 400;
-        font-size: 1.6rem;
+        font-size: 1.4rem;
 
         ${media.tablet} {
-            font-size: 1.8rem;
+            font-size: 1.6rem;
         }
     }
 

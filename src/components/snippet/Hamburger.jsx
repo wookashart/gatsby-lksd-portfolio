@@ -1,16 +1,22 @@
 import styled from 'styled-components';
+import media from '../../styles/media';
 
 export const Hamburger = styled.div`
     position: fixed;
     z-index: 11;
-    top: 50px;
-    left: 50px;
+    top: 15px;
+    left: 20px;
     height: 25px;
     width: 45px;
     cursor: pointer;
     border-bottom: 4px solid var(--orange);
     transition: 500ms transform ease, 200ms border-bottom linear;
     border-radius: 2px;
+
+    ${media.tablet} {
+        top: 50px;
+        left: 50px;
+    }
 
     &::before,
     &::after {

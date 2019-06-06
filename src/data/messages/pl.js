@@ -7,11 +7,14 @@ module.exports = {
     nav2: 'O mnie',
     nav3: 'Doświadczenie',
     nav4: 'Umiejętności',
-    nav5: 'Praca',
+    nav5: 'Projekty',
     nav6: 'Kontakt',
 
     visitPage: 'Odwiedź stronę',
     footerDisclaimer: 'Łukasz Krawczyk Software Development',
+    // cookie banner
+    cookieBannerText: 'Ta strona wykorzystuje pliki cookie w celu zapewnienia maksymalnej wygody w korzystaniu z naszego serwisu. Jeżeli wyrażasz zgodę na zapisywanie informacji zawartej w cookies kliknij na "Akceptuję" w prawym dolnym rogu tej informacji. Jeśli nie wyrażasz zgody, ustawienia dotyczące plików cookies możesz zmienić w swojej przeglądarce.',
+    cookieBannerButton: 'Akceptuję',
     // -------- GLOBAL END --------
 
 
@@ -32,7 +35,7 @@ module.exports = {
     aboutInfoTitle5: 'Strona internetowa:',
     aboutInfoSubtitle1: 'Łukasz Krawczyk',
     aboutInfoSubtitle2: '12.04.1988r.',
-    aboutInfoSubtitle3: 'luki88kr@gmail.com / lukasz.krawczyk@lksd.pl',
+    aboutInfoSubtitle3: 'lukasz.krawczyk@lksd.pl',
     aboutInfoSubtitle4: '+45 515 598 375',
     aboutInfoSubtitle5: 'https://lksd.pl',
     // -------- ABOUT ME END --------

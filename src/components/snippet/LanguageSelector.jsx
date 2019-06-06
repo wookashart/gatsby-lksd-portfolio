@@ -73,7 +73,7 @@ class LanguageLink extends Component {
 
 export default class LanguageSelector extends Component {
     selectLanguage = langKey => {
-        Cookie.set('plp-lang', langKey, { expires: 365 });
+        Cookie.set('lksd-lang', langKey, { expires: 365 });
     }
 
     render() {

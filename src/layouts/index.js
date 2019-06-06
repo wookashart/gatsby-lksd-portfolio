@@ -6,6 +6,7 @@ import inBrowserLanguage from 'in-browser-language';
 import Cookie from 'js-cookie';
 import GlobalLayout from '../components/global/Global';
 import LanguageSelector from '../components/snippet/LanguageSelector';
+import CookieBanner from '../components/snippet/CookieBanner';
 
 export default ({ children, location, i18nMessages }) => (
     <StaticQuery
@@ -33,7 +34,7 @@ export default ({ children, location, i18nMessages }) => (
 
             if (typeof window !== 'undefined') {
                 const browserLang = inBrowserLanguage.pick(langs, defaultLangKey);
-                const cookieLang = Cookie.get('plp-lang');
+                const cookieLang = Cookie.get('lksd-lang');
                 const userLanguage = cookieLang || browserLang;
 
                 if (userLanguage !== langKey) {
@@ -48,6 +49,7 @@ export default ({ children, location, i18nMessages }) => (
                     <GlobalLayout>
                         <LanguageSelector langs={langsMenu} />
                         {children}
+                        <CookieBanner />
                     </GlobalLayout>
                 </IntlProvider>
             );

@@ -25,9 +25,7 @@ class HeroComponent extends React.Component {
                     <p>
                         <FormattedMessage id="heroSubtitle" />
                     </p>
-                    <div onClick={this.scroll}>
-                        <ButtonBase id="heroButton" />
-                    </div>
+                    <ButtonBase id="heroButton" action={this.scroll} />
                 </HeroContent>
             </Hero>
         );
