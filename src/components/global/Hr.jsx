@@ -19,6 +19,7 @@ export const Hr = styled.hr`
 
         ${media.desktop} {
             margin: 70px auto;
+            margin-bottom: 50px;
         }
     }
 `;

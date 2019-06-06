@@ -36,7 +36,11 @@ export default () => (
 );
 
 const AboutMe = styled.section`
-    padding-top: 50px;
+    margin-top: 20px;
+
+    ${media.desktop} {
+        margin-top: 50px;
+    }
 `;
 
 const AboutMeContent = styled.div`
@@ -44,7 +48,7 @@ const AboutMeContent = styled.div`
     grid-template-columns: 1fr;
     grid-column-gap: 30px;
 
-    ${media.tablet} {
+    ${media.desktop} {
         grid-template-columns: 1fr 1fr;
     }
 
@@ -53,8 +57,9 @@ const AboutMeContent = styled.div`
         justify-content: center;
         align-items: center;
 
-        ${media.tablet} {
+        ${media.desktop} {
             display: flex;
+            padding-top: 35px;
         }
 
         img {

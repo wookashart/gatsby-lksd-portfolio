@@ -15,7 +15,7 @@ export default ({ title, description, img, url, customColor }) => (
 );
 
 const Detail = styled.li`
-    border: 5px solid ${props => props.customColor ? props.customColor : 'var(--purple)'};
+    border: 2px solid ${props => props.customColor ? props.customColor : 'var(--purple)'};
     background-color: ${props => props.customColor ? props.customColor : 'var(--purple)'};
     box-shadow: var(--shadow-base);
     position: relative;

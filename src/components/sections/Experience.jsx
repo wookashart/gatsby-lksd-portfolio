@@ -3,6 +3,7 @@ import styled from 'styled-components';
 import { MaxWidthBox } from '../global/MaxWidthBox';
 import Header from '../global/H2Underline';
 import ExperienceLine from './experience/ExperienceLine';
+import media from '../../styles/media';
 
 export default () => (
     <Experience data-section="nav3">
@@ -32,4 +33,10 @@ export default () => (
     </Experience>
 );
 
-const Experience = styled.section``;
+const Experience = styled.section`
+    padding-bottom: 20px;
+
+    ${media.desktop} {
+        padding-bottom: 50px;
+    }
+`;

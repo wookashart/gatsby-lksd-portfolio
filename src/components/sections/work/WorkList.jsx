@@ -25,7 +25,11 @@ const List = styled.ul`
     grid-row-gap: 20px;
     margin-top: 50px;
 
+    ${media.tablet} {
+        grid-template-columns: 1fr 1fr;
+    }
+
     ${media.desktop} {
-        grid-template-columns: 1fr 1fr 1fr;
+        grid-template-columns: 1fr 1fr 1fr 1fr;
     }
 `;

@@ -41,10 +41,6 @@ const Info = styled.div`
 
     span { 
         font-size: 1.6rem;
-
-        ${media.tablet} {
-            font-size: 1.8rem;
-        }
     }
 
     .about-me__information {
@@ -53,7 +49,7 @@ const Info = styled.div`
             width: 300px;
 
             span {
-                font-weight: 600;
+                font-weight: 700;
             }
         }
 
@@ -61,7 +57,7 @@ const Info = styled.div`
             flex: 1;
 
             span {
-                font-weight: 400;
+                font-weight: 600;
             }
         }
     }

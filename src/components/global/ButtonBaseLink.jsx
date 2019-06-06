@@ -1,16 +1,15 @@
 import React from 'react';
 import styled from 'styled-components';
 import { FormattedMessage } from 'react-intl';
-import { Link } from 'gatsby';
 import media from '../../styles/media';
 
 export default ({ id, target, url }) => (
-    <Button to={url} target={target}>
+    <Button href={url} target={target}>
         <FormattedMessage id={id} />
     </Button>
 );
 
-const Button = styled(Link)`
+const Button = styled.a`
     position: relative;
     margin: 20px 0;
     color: var(--white);
