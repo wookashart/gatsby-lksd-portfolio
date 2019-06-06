@@ -1,0 +1,1 @@
+GitHub pages: https://wookashart.github.io/gatsby-lksd-portfolio
