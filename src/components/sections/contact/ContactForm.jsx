@@ -106,7 +106,7 @@ const ContactInfo = styled.div`
 
         &:focus {
             outline: none;
-            border: 1px solid var(--orange);
+            border: 1px solid var(--primary);
         }
     }
 

@@ -13,7 +13,7 @@ const Button = styled.a`
     position: relative;
     margin: 20px 0;
     color: var(--white);
-    background-color: var(--orange);
+    background-color: var(--primary);
     border: none;
     display: inline-block;
     padding: 10px 20px;

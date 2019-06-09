@@ -48,7 +48,7 @@ const LangLink = styled(Link)`
     }
 
     &[aria-current="page"] {
-        color: var(--orange);
+        color: var(--primary);
         opacity: 1;
     }
 `;

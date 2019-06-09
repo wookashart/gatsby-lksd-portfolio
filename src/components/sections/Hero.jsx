@@ -58,7 +58,7 @@ const HeroContent = styled.div`
             display: block;
             height: 2px;
             width: 100%;
-            background-color: var(--orange);
+            background-color: var(--primary);
             margin: 10px auto;
         }
     }

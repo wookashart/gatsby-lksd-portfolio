@@ -25,7 +25,7 @@ export const Dot = styled.div`
         width: 18px;
         height: 18px;
         border-radius: 100%;
-        background-color: var(--orange);
+        background-color: var(--primary);
         border: 2px solid var(--purple);
     }
 `;

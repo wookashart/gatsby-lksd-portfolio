@@ -45,7 +45,7 @@ const SocialMediaList = styled.ul`
 
         &:hover {
             svg {
-                color: var(--orange);
+                color: var(--primary);
             }
         }
     }

@@ -20,7 +20,7 @@ const Header = styled.h2`
         height: 2px;
         width: 80px;
         display: block;
-        background-color: var(--orange);
+        background-color: var(--primary);
         margin-bottom: 20px;
     }
 `;

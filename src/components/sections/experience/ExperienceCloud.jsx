@@ -21,7 +21,7 @@ const CloudComponent =  ({ xp, side }) => {
                     <FormattedMessage id={xp.position} />
                 </p>
             </CloudHeader>
-            <CloudeText color="orange">
+            <CloudeText color="primary">
                 <FormattedMessage id={xp.date} />
             </CloudeText>
             <CloudeText color="white">

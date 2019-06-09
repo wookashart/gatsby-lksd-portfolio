@@ -31,7 +31,7 @@ const SkillsContent = styled.ul`
 
     li {
         h4 {
-            color: var(--orange);
+            color: var(--primary);
             margin: 0;
         }
 

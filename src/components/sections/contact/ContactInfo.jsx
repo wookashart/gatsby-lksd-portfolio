@@ -65,7 +65,7 @@ const Info = styled.ul`
             }
 
             &:hover {
-                color: var(--orange)
+                color: var(--primary)
             }
         }
     }
