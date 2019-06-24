@@ -89,27 +89,39 @@ module.exports = {
     
     work1Title: 'Motoexpert Sklep',
     work1Description: 'Website created on the CMS - Webshop. SASS and jQuery were used to prepare the appearance and functionality.',
+    work1Company: 'ASCO Systemy Informatyczne',
     
     work2Title: 'CenterCar',
     work2Description: 'Website created on the CMS - Webshop. SASS and jQuery were used to prepare the appearance and functionality.',
+    work2Company: 'ASCO Systemy Informatyczne',
     
     work3Title: 'Colgate Professional',
     work3Description: 'Preparation of the master page in a 3-person team on the Adobe Experience Manager. I created here individual components, such as registration forms and user edit forms, along with the entire validation.',
+    work3Company: 'VMLY&R',
     
     work4Title: 'Sanex',
     work4Description: 'Preparation of the master page in a 3-person team on the Adobe Experience Manager. I created here most of the components, such as carousel or footer, and many more.',
+    work4Company: 'VMLY&R',
     
     work5Title: 'Palmolive',
     work5Description: 'Preparation of the master page in a 3-person team on the Adobe Experience Manager. I created here most of the components, such as footer, and many more.',
+    work5Company: 'VMLY&R',
 
     work6Title: 'My example website',
     work6Description: 'Site created entirely by me as part of the exercise - the front made in React.js + styled components, and backend in Node.js (express).',
+    work6Company: '-',
 
     work7Title: 'Meridol Landing Page',
     work7Description: 'A website created by me entirely from scratch. I used gulp, SASS and jQuery here.',
+    work7Company: 'VMLY&R',
 
     work8Title: 'Kreacjabogactwa',
     work8Description: 'Website created at Blogger. I created the majority of the layout from scratch and the whole styling.',
+    work8Company: 'Freelance',
+
+    work9Title: 'mBank Lotne Brygady',
+    work9Description: 'A website created by me entirely from scratch. I used gulp, SASS and jQuery here.',
+    work9Company: 'VMLY&R',
     // -------- WORK END --------
 
 

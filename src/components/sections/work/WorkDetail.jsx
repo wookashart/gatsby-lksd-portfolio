@@ -3,11 +3,12 @@ import styled from 'styled-components';
 import { FormattedMessage } from 'react-intl';
 import Link from '../../global/ButtonBaseLink';
 
-export default ({ title, description, img, url, customColor }) => (
+export default ({ title, description, company, img, url, customColor }) => (
     <Detail backgroundImage={img} customColor={customColor}>
         <div className="work__detail__img" />
         <div className="work__detail__text">
             <h4><FormattedMessage id={title} /></h4>
+            <h5><FormattedMessage id={company} /></h5>
             <p><FormattedMessage id ={description} /></p>
             <Link url={url} target="_blank" id="visitPage" />
         </div>
@@ -43,6 +44,15 @@ const Detail = styled.li`
 
             h4 {
                 margin: 0;
+                min-height: 55px;
+            }
+
+            h5 {
+                color: var(--white);
+                
+                span {
+                    font-size: 1.4rem;
+                }
             }
 
             p span {

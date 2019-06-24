@@ -89,27 +89,39 @@ module.exports = {
 
     work1Title: 'Motoexpert Sklep',
     work1Description: 'Strona stworzona na autorskim CMS\'ie - Webshop. Do przygotowania wyglądu oraz funkcjonalności użyto SASS oraz jQuery.',
+    work1Company: 'ASCO Systemy Informatyczne',
     
     work2Title: 'CenterCar',
     work2Description: 'Strona stworzona na autorskim CMS\'ie - Webshop. Do przygotowania wyglądu oraz funkcjonalności użyto SASS oraz jQuery.',
+    work2Company: 'ASCO Systemy Informatyczne',
     
     work3Title: 'Colgate Professional',
     work3Description: 'Przygotowanie strony masterowej w zespole 3 osobowym na Adobe Experience Manager. Tworzyłem tutaj poszczególne komponenty jak np. formularze rejestracji i edycji konta wraz z całą walidacją.',
+    work3Company: 'VMLY&R',
     
     work4Title: 'Sanex',
     work4Description: 'Przygotowanie strony masterowej w zespole 3 osobowym na Adobe Experience Manager. Tworzyłem tutaj większość komponentów z których składa się strona jak np. karuzela czy footer oraz wiele innych.',
+    work4Company: 'VMLY&R',
     
     work5Title: 'Palmolive',
     work5Description: 'Przygotowanie strony masterowej w zespole 3 osobowym na Adobe Experience Manager. Tworzyłem tutaj większość komponentów z których składa się strona jak np. footer oraz wiele innych.',
+    work5Company: 'VMLY&R',
 
     work6Title: 'Moja przykładowa strona',
     work6Description: 'Strona stworzona w całości przeze mnie w ramach ćwiczenia - front wykonany w React.js + styled components, a backend w Node.js (express).',
+    work6Company: '-',
 
     work7Title: 'Meridol Landing Page',
     work7Description: 'Strona stworzona przeze mnie w całości od podstaw. Wykorzystałem tutaj gulp, SASS oraz jQuery.',
+    work7Company: 'VMLY&R',
 
     work8Title: 'Kreacjabogactwa',
     work8Description: 'Strona stworzona przy użyciu Bloggera. Stworzyłem większość layoutu od podstaw oraz całość stylowania.',
+    work8Company: 'Freelance',
+
+    work9Title: 'mBank Lotne Brygady',
+    work9Description: 'Strona stworzona przeze mnie w całości od podstaw. Wykorzystałem tutaj gulp, SASS oraz jQuery.',
+    work9Company: 'VMLY&R',
     // -------- WORK END --------
     
 

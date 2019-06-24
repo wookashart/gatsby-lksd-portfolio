@@ -14,6 +14,7 @@ import palmolive from '../../images/works/palmolive.jpg';
 import mygames from '../../images/works/moje-gry.jpg';
 import meridol from '../../images/works/meridol.jpg';
 import kreacjabogactwa from '../../images/works/kreacja-bogactwa.jpg';
+import mbankLotneBrygady from '../../images/works/mbank-lotne-brygady.jpg';
 
 export default () => (
     <WorkSection data-section="nav5">
@@ -23,6 +24,7 @@ export default () => (
                 {
                     title: 'work1Title',
                     description: 'work1Description',
+                    company: 'work1Company',
                     img: motoexpert,
                     url: 'https://www.motoexpertsklep.pl',
                     customColor: '#2a2926'
@@ -30,6 +32,7 @@ export default () => (
                 {
                     title: 'work2Title',
                     description: 'work2Description',
+                    company: 'work2Company',
                     img: centercar,
                     url: 'https://www.centercar.pl',
                     customColor: '#ffb10f'
@@ -37,6 +40,7 @@ export default () => (
                 {
                     title: 'work3Title',
                     description: 'work3Description',
+                    company: 'work3Company',
                     img: colgateprofessional,
                     url: 'https://www.colgateprofessional.com',
                     customColor: '#ed1d24'
@@ -44,6 +48,7 @@ export default () => (
                 {
                     title: 'work4Title',
                     description: 'work4Description',
+                    company: 'work4Company',
                     img: sanex,
                     url: 'https://www.sanex.co.uk',
                     customColor: '#009bde'
@@ -51,6 +56,7 @@ export default () => (
                 {
                     title: 'work5Title',
                     description: 'work5Description',
+                    company: 'work5Company',
                     img: palmolive,
                     url: 'https://www.palmolive.co.uk',
                     customColor: '#009390'
@@ -58,6 +64,7 @@ export default () => (
                 {
                     title: 'work6Title',
                     description: 'work6Description',
+                    company: 'work6Company',
                     img: mygames,
                     url: 'http://games.wookashart.usermd.net',
                     customColor: '#2285ea'
@@ -65,6 +72,7 @@ export default () => (
                 {
                     title: 'work7Title',
                     description: 'work7Description',
+                    company: 'work7Company',
                     img: meridol,
                     url: 'https://www.accueil.meridol.fr',
                     customColor: '#159fdb'
@@ -72,9 +80,18 @@ export default () => (
                 {
                     title: 'work8Title',
                     description: 'work8Description',
+                    company: 'work8Company',
                     img: kreacjabogactwa,
                     url: 'https://www.kreacjabogactwa.pl',
                     customColor: '#25a186'
+                },
+                {
+                    title: 'work9Title',
+                    description: 'work9Description',
+                    company: 'work9Company',
+                    img: mbankLotneBrygady,
+                    url: 'https://www.mbank.pl/lp2/2019/indywidualny/konta/ekonto-mozliwosci-tour',
+                    customColor: '#0000ff'
                 }
             ]} />
             <Hr />

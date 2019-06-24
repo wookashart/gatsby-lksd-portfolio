@@ -10,6 +10,7 @@ export default ({ list }) => (
                 key={index}
                 title={work.title}
                 description={work.description}
+                company={work.company}
                 img={work.img}
                 url={work.url}
                 customColor={work.customColor}
