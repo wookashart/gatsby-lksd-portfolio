@@ -122,6 +122,10 @@ module.exports = {
     work9Title: 'mBank Lotne Brygady',
     work9Description: 'Strona stworzona przeze mnie w całości od podstaw. Wykorzystałem tutaj gulp, SASS oraz jQuery.',
     work9Company: 'VMLY&R',
+
+    work10Title: 'Mercedes Złoto dla Zuchwałych',
+    work10Description: 'Stworzenie wyglądu strony razem z podstroną, animacji oraz części funkcjonalności związanych z formularzem kontaktowym. Strona wykonana przy pomocy SASS + ES6 + jQuery',
+    work10Company: 'VMLY&R',
     // -------- WORK END --------
     
 
