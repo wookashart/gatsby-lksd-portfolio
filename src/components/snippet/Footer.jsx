@@ -1,6 +1,7 @@
 import React from 'react';
 import styled from 'styled-components';
 import FooterSocialMedia from './footer/FooterSocialMedia';
+import GoToTop from '../global/GoToTop';
 import { FormattedMessage } from 'react-intl';
 
 class FooterComponent extends React.Component {
@@ -14,6 +15,7 @@ class FooterComponent extends React.Component {
     render() {
         return (
             <Footer>
+                <GoToTop />
                 <FooterSocialMedia />
                 <div>
                     <span>@{this.getYear()}</span>

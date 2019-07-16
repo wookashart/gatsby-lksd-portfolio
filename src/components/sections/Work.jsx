@@ -15,6 +15,7 @@ import mygames from '../../images/works/moje-gry.jpg';
 import meridol from '../../images/works/meridol.jpg';
 import kreacjabogactwa from '../../images/works/kreacja-bogactwa.jpg';
 import mbankLotneBrygady from '../../images/works/mbank-lotne-brygady.jpg';
+import mercedesZlotoDlaZuchwalych from '../../images/works/mercedes-zloto-dla-zuchwalych.jpg';
 
 export default () => (
     <WorkSection data-section="nav5">
@@ -92,6 +93,14 @@ export default () => (
                     img: mbankLotneBrygady,
                     url: 'https://www.mbank.pl/lp2/2019/indywidualny/konta/ekonto-mozliwosci-tour',
                     customColor: '#0000ff'
+                },
+                {
+                    title: 'work10Title',
+                    description: 'work10Description',
+                    company: 'work10Company',
+                    img: mercedesZlotoDlaZuchwalych,
+                    url: 'https://goldedition.mercedes-benz.pl',
+                    customColor: '#2a2a2a'
                 }
             ]} />
             <Hr />

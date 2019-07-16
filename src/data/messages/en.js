@@ -122,6 +122,10 @@ module.exports = {
     work9Title: 'mBank Lotne Brygady',
     work9Description: 'A website created by me entirely from scratch. I used gulp, SASS and jQuery here.',
     work9Company: 'VMLY&R',
+
+    work10Title: 'Mercedes Złoto dla Zuchwałych',
+    work10Description: 'Creating the look of the website together with subpage, animations and some functionalities related to the contact form. Website made with SASS + ES6 + jQuery.',
+    work10Company: 'VMLY&R',
     // -------- WORK END --------
 
 
