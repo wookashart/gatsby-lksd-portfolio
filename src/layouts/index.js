@@ -46,7 +46,7 @@ export default ({ children, location, i18nMessages }) => (
                 <IntlProvider
                     locale={langKey}
                     messages={i18nMessages}>
-                    <GlobalLayout>
+                    <GlobalLayout lang={langKey}>
                         <LanguageSelector langs={langsMenu} />
                         {children}
                         <CookieBanner />

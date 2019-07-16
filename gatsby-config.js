@@ -16,6 +16,13 @@ module.exports = {
                 useLangKeyLayout: true,
                 prefixDefault: false
             }
+        },
+        {
+            resolve: 'gatsby-plugin-htaccess',
+            options: {
+                https: true,
+                www: false
+            }
         }
     ],
     pathPrefix: '/gatsby-lksd-portfolio'

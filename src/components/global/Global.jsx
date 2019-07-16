@@ -5,7 +5,11 @@ import '../../styles/variables.css';
 import media from '../../styles/media';
 
 const GlobalStyle = createGlobalStyle`
-    @import url('https://fonts.googleapis.com/css?family=Raleway:400,400i,600,700,900&subset=latin-ext');
+    @font-face {
+        font-family: 'Raleway';
+        font-display: auto;
+        src: url('https://fonts.googleapis.com/css?family=Raleway:400,400i,600,700,900&subset=latin-ext');
+    }
 
     html, body {
         margin: 0;
@@ -113,7 +117,7 @@ const GlobalStyle = createGlobalStyle`
     }
 `;
 
-export default ({ children }) => (
+export default ({ children, lang }) => (
     <Fragment>
         <Helmet>
             <meta charSet="utf-8" />
@@ -129,6 +133,8 @@ export default ({ children }) => (
             <meta name="msapplication-TileImage" content="/mstile-144x144.png?v=1546712715865" />
             <meta name="msapplication-config" content="/browserconfig.xml?v=1546712715865" />
             <meta name="theme-color" content="#353543" />
+
+            <html lang={lang} />
         </Helmet>
         <GlobalStyle />
         {children}

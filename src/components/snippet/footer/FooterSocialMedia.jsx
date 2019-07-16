@@ -8,9 +8,36 @@ import { Github } from 'styled-icons/feather/Github';
 
 export default () => (
     <SocialMediaList>
-        <li><a href="https://www.linkedin.com/in/%C5%82ukasz-krawczyk-247379111/" target="_blank"><Linkedin /></a></li>
-        <li><a href="https://www.facebook.com/profile.php?id=100001301830530" target="_blank"><Facebook /></a></li>
-        <li><a href="https://github.com/wookashart" target="_blank"><Github /></a></li>
+        <li>
+            <a
+                href="https://www.linkedin.com/in/%C5%82ukasz-krawczyk-247379111/"
+                target="_blank"
+                rel="noreferrer"
+                aria-label="LinkedIn"
+            >
+                <Linkedin />
+            </a>
+        </li>
+        <li>
+            <a
+                href="https://www.facebook.com/profile.php?id=100001301830530"
+                target="_blank"
+                rel="noreferrer"
+                aria-label="Facebook"
+            >
+                <Facebook />
+            </a>
+        </li>
+        <li>
+            <a
+                href="https://github.com/wookashart"
+                target="_blank"
+                rel="noreferrer"
+                aria-label="GitHub"
+            >
+                <Github />
+            </a>
+        </li>
     </SocialMediaList>
 );
 

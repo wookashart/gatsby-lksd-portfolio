@@ -4,7 +4,7 @@ import { FormattedMessage } from 'react-intl';
 import media from '../../styles/media';
 
 export default ({ id, target, url }) => (
-    <Button href={url} target={target}>
+    <Button href={url} target={target} rel={target === '_blank' ? 'noreferrer' : ''}>
         <FormattedMessage id={id} />
     </Button>
 );

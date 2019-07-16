@@ -27,7 +27,7 @@ export default () => (
                     ]} />
                 </div>
                 <div className="about-me__image">
-                    <img src={image} />
+                    <img src={image} alt="About me image" />
                 </div>
             </AboutMeContent>
             <Hr />
