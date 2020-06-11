@@ -51,24 +51,31 @@ module.exports = {
 
     experienceWork2: 'VMLY&R Poland',
     experienceWork2position: '@ Junior Front-End Developer',
-    experienceWork2date: '2018.01 - now',
-    experienceWork2description: 'Creating websites and internet applications according to the design from PSD or Zeplin. Work on the components of websites based on AEM. I choose the technology in which the pages should be written, and later write the code in the chosen technology. Technologies used: basic (gulp, SASS, jQuery), Vue.js (Nuxt.js), React.js (create-react-app, Gatsby).',
+    experienceWork2date: '2018.01 - 01.2020',
+    experienceWork2description: 'Creating websites and internet applications according to the design from PSD or Zeplin. Work on the components of websites based on AEM. I choose the technology in which the pages should be written, and later write the code in the chosen technology. Technologies used: basic (gulp, SASS, jQuery), Vue.js (Nuxt.js), React.js (create-react-app, Gatsby.js).',
+
+    experienceWork3: 'VMLY&R Poland',
+    experienceWork3position: '@ Front-End Developer',
+    experienceWork3date: '01.2020 - now',
+    experienceWork3description: 'Creating websites and internet applications according to the design from PSD or Zeplin. Basic UX tasks. Work on the components of websites based on AEM, Drupal, Wordpress and Liferay. The choice of technology in which the pages are to be written. Caring for the correct code. Technologies used: basic (gulp, SASS, jQuery), Vue.js (Nuxt.js), React.js (create-react-app, Gatsby.js, Next.js) GraphQL, Webpack.',
     // -------- EXPERIENCE END --------
+
+    
 
 
     // -------- SKILLS --------
     skillsTitle: 'Skills',
     skill1Title: 'Basic',
-    skill1Description: 'Good knowledge of HTML5, CSS3, SASS, basic knowledge of Bootstrap.',
+    skill1Description: 'Good knowledge of HTML5, CSS3, SASS and Bootstrap.',
 
     skill2Title: 'Javascript',
     skill2Description: 'Good knowledge of ES6 and jQuery.',
 
     skill3Title: 'React.js',
-    skill3Description: 'Very well knowledge of React.js + basic knowledge of Redux. Writing an application using Gatsby or via create-react-app. Basic webpack configuration skill.',
+    skill3Description: 'Very well knowledge of React.js + basic knowledge of Redux. Writing an application using Gatsby.js, Next.js or via create-react-app. Basic webpack configuration skill.',
 
     skill4Title: 'Vue.js',
-    skill4Description: 'Good knowledge of Vue.js + Vuex. Writing an application using Nuxt or CLI3.',
+    skill4Description: 'Good knowledge of Vue.js + Vuex. Writing an application using Nuxt.js or CLI3.',
 
     skill5Title: 'Node.js',
     skill5Description: 'Basic knowledge of Node.js. Writing code via express and implementation of MySQL and MongoDB databases.',
@@ -77,7 +84,7 @@ module.exports = {
     skill6Description: 'Basic knowledge of relative MySQL databases including writing queries in SQL. Also basic knowledge of MongoDB databases - writing queries using mongoose.',
 
     skill7Title: 'CMS',
-    skill7Description: 'Very good knowledge of Adobe Experience Manager (AEM) - creating reusable components and implementing them on the website, configuring CMS settings. Basic knowledge of Wordpress and Blogger.',
+    skill7Description: 'Very good knowledge of Adobe Experience Manager (AEM) - creating reusable components and implementing them on the website, configuring CMS settings. Basic knowledge of Wordpress, Drupal and Blogger.',
 
     skill8Title: 'Graphic',
     skill8Description: 'Basic familiarity with Photoshop, allowing you to "cut" the page design and use the work on the page. Also familiarity with the Zeplin program and reading all data about the project from it.',
@@ -126,6 +133,19 @@ module.exports = {
     work10Title: 'Mercedes Złoto dla Zuchwałych',
     work10Description: 'Creating the look of the website together with subpage, animations and some functionalities related to the contact form. Website made with SASS + ES6 + jQuery.',
     work10Company: 'VMLY&R',
+
+    work11Title: 'Pictemi',
+    work11Description: 'Creating a landing page for a startup based on a delivered project in Zeplin. Everything created in Gatsby.js and styled components.',
+    work11Company: 'Freelance',
+
+    work12Title: 'TicTac',
+    work12Description: 'Creating a master page in a team of 2 frontend developers and 1 backend developer. Website created in Vue.js (Nuxt.js), Vuex and typescript, with back-end on Drupal.',
+    work12Company: 'VMLY&R',
+
+    work13Title: 'iPOS',
+    work13Description: 'Creating a site for Polish and English localization in a team of 2 frontend developers + 1 backend developer for a company selling cash registers. Page written in Gatsby.js, Redux and typescript with JSON API support. Backend located on Drupal.',
+    work13Company: 'VMLY&R',
+
     // -------- WORK END --------
 
 

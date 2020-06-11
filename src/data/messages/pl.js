@@ -51,24 +51,29 @@ module.exports = {
 
     experienceWork2: 'VMLY&R Poland',
     experienceWork2position: '@ Junior Front-End Developer',
-    experienceWork2date: '01.2018 - obecnie',
-    experienceWork2description: 'Tworzenie stron, oraz aplikacji internetowch według projektu z PSD lub Zeplinie. Praca nad komponentami stron internetowych, na bazie AEM\'a. Wybór technologii w jakiej mają zostać napisne strony, a później pisanie kodu w wybranej technologii. Używane technologie: podstawowa (gulp, SASS, jQuery), Vue.js (Nuxt.js), React.js (create-react-app, Gatsby).',
+    experienceWork2date: '01.2018 - 01.2020',
+    experienceWork2description: 'Tworzenie stron, oraz aplikacji internetowch według projektu z PSD lub Zeplinie. Praca nad komponentami stron internetowych, na bazie AEM\'a. Wybór technologii w jakiej mają zostać napisne strony, a później pisanie kodu w wybranej technologii. Używane technologie: podstawowa (gulp, SASS, jQuery), Vue.js (Nuxt.js), React.js (create-react-app, Gatsby.js).',
+
+    experienceWork3: 'VMLY&R Poland',
+    experienceWork3position: '@ Front-End Developer',
+    experienceWork3date: '01.2020 - obecnie',
+    experienceWork3description: 'Tworzenie stron, oraz aplikacji internetowch według projektu z PSD lub Zeplinie. Proste prace UX-owe.  Praca nad komponentami stron internetowych, na bazie frameworków takich jak AEM, Drupal, Wordpress i Liferay. Wybór technologii w jakiej mają zostać napisne strony. Czówanie nad poprawnością kodu. Używane technologie: podstawowa (gulp, SASS, jQuery), Vue.js (Nuxt.js), React.js (create-react-app, Gatsby.js, Next.js), GraphQL, Webpack.',
     // -------- EXPERIENCE END --------
 
 
     // -------- SKILLS --------
     skillsTitle: 'Umiejętności',
     skill1Title: 'Podstawowe',
-    skill1Description: 'Bardzo dobra znajomość HTML5, CSS3, SASS, podstawowa znajomość Bootstrap.',
+    skill1Description: 'Bardzo dobra znajomość HTML5, CSS3, SASS, znajomość Bootstrap.',
 
     skill2Title: 'Javascript',
     skill2Description: 'Dobra znajomość ES6 oraz jQuery',
 
     skill3Title: 'React.js',
-    skill3Description: 'Bardzo dobra znajomość React.js + podstawowa znajomość Redux. Pisanie aplikacji przy użyciu Gatsby lub poprzez create-react-app. Podstawowa umiejętność konfiguracji webpacka.',
+    skill3Description: 'Bardzo dobra znajomość React.js + Redux. Pisanie aplikacji przy użyciu Gatsby.js, Next.js lub poprzez create-react-app. Podstawowa umiejętność konfiguracji webpacka.',
 
     skill4Title: 'Vue.js',
-    skill4Description: 'Dobra znajomość Vue.js + Vuex. Aplikacjie pisane w Nuxt oraz CLI3.',
+    skill4Description: 'Dobra znajomość Vue.js + Vuex. Aplikacjie pisane w Nuxt.js oraz CLI3.',
 
     skill5Title: 'Node.js',
     skill5Description: 'Podstawowa umiejętność pisania w Node.js przy użyciu express, oraz implementacji baz danych MySQL oraz MongoDB.',
@@ -77,7 +82,7 @@ module.exports = {
     skill6Description: 'Podstawowa znajomość relatywnych baz danych MySQL łącznie z pisaniem zapytań w SQL. Również podstawowa znajomość baz danych MongoDB - pisanie zapytań przy użyciu mongoose.',
 
     skill7Title: 'CMS',
-    skill7Description: 'Bardzo dobra znajomość Adobe Experience Manager (AEM) - tworzenie reużywalnych komponentów i wdrażanie ich na stronie, konfiguracja ustawień CMS\'a. Podstawowa znajomość Wordpress oraz Blogger.',
+    skill7Description: 'Bardzo dobra znajomość Adobe Experience Manager (AEM) - tworzenie reużywalnych komponentów i wdrażanie ich na stronie, konfiguracja ustawień CMS\'a. Podstawowa znajomość Wordpress, Drupal oraz Blogger.',
 
     skill8Title: 'Programy graficzne',
     skill8Description: 'Podstawowa znajomość Photoshop, pozwalająca na dokładne "pocięcie" projektu strony i wykorzystanie gow pracy nad stroną. Również znajomość programu Zeplin i odczytywanie z niego wszystkich danych na temat projektu.',
@@ -126,6 +131,19 @@ module.exports = {
     work10Title: 'Mercedes Złoto dla Zuchwałych',
     work10Description: 'Stworzenie wyglądu strony razem z podstroną, animacji oraz części funkcjonalności związanych z formularzem kontaktowym. Strona wykonana przy pomocy SASS + ES6 + jQuery',
     work10Company: 'VMLY&R',
+
+    work11Title: 'Pictemi',
+    work11Description: 'Stworzenie landing page dla startup\'u w oparciu na dostarczonym projekcie w Zeplinie. Całość przygotowana w Gatsby.js oraz stylowane w styled components.',
+    work11Company: 'Freelance',
+
+    work12Title: 'TicTac',
+    work12Description: 'Stworzenie strony masterowej w zespole 2 frontend deweloperów + 1 backend deweloper. Strona stworzona w Vue.js (Nuxt.js), Vuex i typescript, z back-endem na Drupalu.',
+    work12Company: 'VMLY&R',
+
+    work13Title: 'iPOS',
+    work13Description: 'Stworzenie strony w lokalizacji polskiej i angielskiej w zespole 2 frontend deweloperów + 1 backend deweloper dla firmy sprzedającej kasoterminale. Strona napisana w Gatsby.js, Redux i typescript z obsługą JSON API. Backend ulokowany na Drupalu.',
+    work13Company: 'VMLY&R',
+
     // -------- WORK END --------
     
 

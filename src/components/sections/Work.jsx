@@ -16,6 +16,9 @@ import meridol from '../../images/works/meridol.jpg';
 import kreacjabogactwa from '../../images/works/kreacja-bogactwa.jpg';
 import mbankLotneBrygady from '../../images/works/mbank-lotne-brygady.jpg';
 import mercedesZlotoDlaZuchwalych from '../../images/works/mercedes-zloto-dla-zuchwalych.jpg';
+import pictemi from '../../images/works/pictemi.jpg';
+import tictac from '../../images/works/tictac.jpg';
+import ipos from '../../images/works/ipos.jpg';
 
 export default () => (
     <WorkSection data-section="nav5">
@@ -101,6 +104,30 @@ export default () => (
                     img: mercedesZlotoDlaZuchwalych,
                     url: 'https://goldedition.mercedes-benz.pl',
                     customColor: '#2a2a2a'
+                },
+                {
+                    title: 'work11Title',
+                    description: 'work11Description',
+                    company: 'work11Company',
+                    img: pictemi,
+                    url: 'https://pictemi.com/pl/',
+                    customColor: '#3b3b5f'
+                },
+                {
+                    title: 'work12Title',
+                    description: 'work12Description',
+                    company: 'work12Company',
+                    img: tictac,
+                    url: 'https://www.tictac.com/pl/pl/',
+                    customColor: '#008857'
+                },
+                {
+                    title: 'work13Title',
+                    description: 'work13Description',
+                    company: 'work13Company',
+                    img: ipos,
+                    url: 'https://ipos.pl/',
+                    customColor: '#1DA239'
                 }
             ]} />
             <Hr />
